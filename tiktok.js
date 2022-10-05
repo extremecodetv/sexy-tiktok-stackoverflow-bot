@@ -26,7 +26,7 @@ const parsePageMeta = async (page) => {
     meta['answer'] = await page.evaluate(answer => answer.innerText, answerNode);
     meta['answerElement'] = answerNode;
     meta['answer'] = meta['answer'].split('\n').map((v, i) => { 
-        if (i === 2 || i === 3 || i === 3) { // Магические цифры подобраны при помощи биологической нейросетки
+        if (i === 2 || i === 3) { // Магические цифры подобраны при помощи биологической нейросетки
             return v;
         }
         return '';
