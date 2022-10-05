@@ -1,0 +1,20 @@
+{
+  "name": "stackoverflow-to-tiktok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Artem Dontsov <extremecodetv@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@wolfx/async-task-queue": "^0.1.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "gtts": "^0.2.1",
+    "puppeteer": "^18.0.5",
+    "puppeteer-screen-recorder": "^2.1.1",
+    "telegraf": "^4.9.2"
+  }
+}
